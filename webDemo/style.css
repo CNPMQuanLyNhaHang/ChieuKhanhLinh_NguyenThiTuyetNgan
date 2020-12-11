@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+p
+{
+    font-weight: 300;
+    color: #111111;
+}
+.banner
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(images/bgHome.jpg);
+    background-size: cover;
+}
+.banner .content
+{
+    max-width: 900px;
+    text-align: center;
+}
+.banner .content h2
+{
+    font-size: 5em;
+    color: #9BC53D;
+}
+.banner .content p
+{
+    font-size: 1em;
+    color: #fff;
+}
+.btn
+{
+    font-size: 1em;
+    color: #fff;
+    background: #ff0157;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+.btn:hover
+{
+    background-color: #FA7921;
+    letter-spacing: 6px;
+}
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+header.sticky
+{
+    background: #fff;
+    padding: 10px 100px;   
+}
+header.sticky .logo
+{
+    color: #111;
+}
+header .logo
+{
+    color: #fff;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+header .logo span
+{
+    color: #ff0157;
+}
+header .navigation
+{
+    position: relative;
+    display: flex;
+}
+header .navigation li
+{
+    list-style: none;
+    margin-left: 30px;
+}
+header .navigation li a
+{
+    text-decoration: none;
+    color: #D8E1D3;
+    font-weight: 300;
+}
+header.sticky .navigation li a
+{
+    color: #111;
+}
+header .navigation li a:hover
+{
+    color: #C72C41;
+    letter-spacing: 4px;
+}
+
+
+
+/*Tùy chỉnh cho section about*/
+.about
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D8E1D3;
+    background-size: cover;
+    padding-top: 20px;
+}
+
+section
+{
+    padding: 100px;
+}
+.row
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.row .col
+{
+    position: relative;
+    width: 48%;
+}
+.textTitle
+{
+    color: #111;
+    font-size: 2em;
+    font-weight: 300;
+}
+.textTitle span
+{
+    color: #C72C41;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.row .col .img
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+.row .col .img img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+/* Tùy chỉnh cho Owner section */
+.owner
+{
+    background: url(images/bgOwner.jpg);
+    background-size: cover;
+}
+
+.Genshin .textTitle,
+.Genshin p
+{
+    color: #fff;
+    text-align: center;
+}
+.owner .content
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.owner .content .box
+{
+    width: 340px;
+    margin: 20px;
+    padding: 40px;
+    background: #fff;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+.owner .content .box img
+{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+
+}
+.owner .content .box .text
+{
+    text-align: center;
+}
+
+
+/* Tùy chỉnh cho menu */
+.menu
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D8E1D3;
+    background-size: cover;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.menu .title
+{
+    max-width: 2000px;
+    text-align: center;
+}
+.menu .title h2
+{
+    font-size: 5em;
+    color: #EE4540;
+}
+.menu .title h2 span
+{
+    color: #801336;
+}
+.menu .title p
+{
+    font-size: 1em;
+    color: #111;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.menu .content
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.menu .content .box
+{
+    width: 340px;
+    margin: 20px;
+    border: 15px solid #fff;
+
+}
+.menu .content .box .img
+{
+    position: relative;
+    width: 100%;
+    height: 300px;
+
+}
+.menu .content .box .img img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+header .navigation_menu
+{
+    position: relative;
+    display: flex;
+}
+header .navigation_menu li
+{
+    list-style: none;
+    margin-left: 30px;
+}
+header .navigation_menu li a
+{
+    text-decoration: none;
+    color: #111;
+    font-weight: 300;
+}
+header.sticky .navigation_menu li a
+{
+    color: #111;
+}
+header .navigation_menu li a:hover
+{
+    color: #C72C41;
+    letter-spacing: 4px;
+}
+
+
+
+.footer
+{
+    padding: 20px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+.footer p
+{
+    color: #111;
+}
+.footer .logo
+{
+    color: #111;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+.footer .logo span
+{
+    color: #ff0157;
+}
+
+
+
+input
+{
+    border: 2px solid #ccc;
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+
+table, th, td 
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td 
+{
+    padding: 5px;
+    text-align: left;    
+}
+.error
+{
+    color: #fff;
+    text-align: center;
+    background: #ee4540;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.success
+{
+    background: #1ed1a1;
+    color: #fff;
+    padding: 10px;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    margin-bottom: 20px;
+}

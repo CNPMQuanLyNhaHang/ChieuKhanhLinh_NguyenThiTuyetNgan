@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+
+body
+{
+    background: #D8E1D3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+form
+{
+    width: 500px;
+    border: 2px solid #ccc;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+}
+h2
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+input
+{
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+select{
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+button
+{
+    display: block;
+    border: 2px solid #166FE5;
+    background: #166FE5;
+    color: #fff;
+    width: 95%;
+    padding: 6px;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+button:hover
+{
+    letter-spacing: 4px;
+}
+.error
+{
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+
+.success
+{
+    background: #1ed1a1;
+    color: #fff;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.ca {
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+    color: #166FE5;
+}
+.ca:hover
+{
+	text-decoration: underline;
+} 
+
+.btn
+{
+    display: inline-block;
+    border: 2px solid #166FE5;
+    background: #166FE5;
+    color: #fff;
+    width: 95%;
+    padding: 6px;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
